@@ -6,7 +6,7 @@
 	$descripcion = $_POST["descripcion"];
 	$horaMin = $_POST["horaInicio"];
 	$horaMax = $_POST["horaFinal"];
-	$temp = split("/",$fecha);
+	$temp = explode("/",$fecha);
 	
 	$consulta ="UPDATE
 			  `reserva`

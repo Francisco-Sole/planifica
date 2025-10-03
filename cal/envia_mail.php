@@ -28,10 +28,10 @@
 	$mail->Port = 465;
                 //user/password for gmail account
 	$mail->Username = "fallenofmen@gmail.com";
-	$mail->Password = "Franc9983212";
+	$mail->Password = "FrancFsole";
 	$mail->isHTML(true);
-	$mail->setFrom('calendario.admin@impackta.com', 'Administration');
-	$mail->addReplyTo("calendario.admin@impackta.com", "Administrator");
+	$mail->setFrom('calendario.admin@fsole.com', 'Administration');
+	$mail->addReplyTo("calendario.admin@fsole.com", "Administrator");
 	$cript1 = "";
 	$cript2 = "";
     //codificamos...
@@ -65,6 +65,3 @@
     {
       echo true;
     }
-
-    ya me envia los email.
-    cambiat el false y el true por texto.
